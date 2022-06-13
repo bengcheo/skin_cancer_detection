@@ -11,7 +11,7 @@
 ### Business Problem
 -  To build a CNN based model which can accurately detect melanoma. Melanoma is a type of cancer that can be deadly if not detected early. It accounts for 75% of skin cancer deaths. A solution which can evaluate images and alert the dermatologists about the presence of melanoma has the potential to reduce a lot of manual effort needed in diagnosis.
 ### Project Objective
-- The project objective is to use a CNN model to accurately detect melanoma.
+- The project objective is to use a CNN model to accurately detect melanoma. Data augmentation and class rebalancing will further be used to improve the model. The project will consist of three models.
 
 ## Conclusions
 The observations that I have made are:
