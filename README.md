@@ -1,4 +1,4 @@
-# Understanding the demand for Bike Sharing
+# Detecting Melanoma through a CNN model.
 > This project aims to build a CNN model which uses photographs of moles and different types of skin pigmentations to identify melanoma. Melanoma is a type of cancer that can be deadly if not detected early. It accounts for 75% of skin cancer deaths.
 
 
