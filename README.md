@@ -2,21 +2,10 @@
 > This project aims to build a CNN model which uses photographs of moles and different types of skin pigmentations to identify melanoma. Melanoma is a type of cancer that can be deadly if not detected early. It accounts for 75% of skin cancer deaths.
 
 
-## Table of Contents
-* [0. Business Problem](#0-business-problem)
-* [1. Data Understanding](#1-data-understanding)
-* [2. Data Cleaning](#2-data-cleaning)
-* [3. Data Analysis](#3-data-analysis)
-    * [3.1 Categorical Variables](#31-categorical-variables)
-    * [3.2 Numerical Variables](#32-numerical-variables)
-    * [3.3 Final Summary](#33-final-summary)
-* [4. Model Building](#4-model-building)
-    * [4.1 Feature Engineering](#41-feature-engineering)
-    * [4.2 Forward Selection](#42-forward-selection)
-    * [4.3 RFE Method](#43-rfe-method)
-    * [4.4 Residual Analysis of Training Data](#44-residual-analsis-of-training-data)
-* [5. Making Predictions](#5-making-predictions)
-* [6. Model Selection](#6-model-selection)
+## Table of Contents (Models)
+1. CNN Model
+2. CNN Model with data augmentation
+3. CNN Model with data augmentation and class rebalancing
 
 ## General Information
 ### Business Problem
