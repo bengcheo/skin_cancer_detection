@@ -15,8 +15,11 @@
 
 ## Conclusions
 The observations that I have made are:
-1. My initial model was the strongest, which I felt that was a really strong model with 94% accuracy for training and validation accuracy metrics.
-2. Despite rebalancing the classes, my model overfitted. Personally, I am not a fan of rebalancing class by oversampling a data with fewer samples.
+1. For my initial model, I observed overfitting here, as the validation accuracy has not increased, whereas the training accuracy has increased after 3 to 4 epochs. In addiition, the training loss continued to increase after 3 to 4 epochs, and the graphs above indicate a case of overfitting.
+2. For my second model, I saw evidences of overfitting, but it was better than the previous model as both training and validation accuracy metrics slowly increased after 5 to 7 epochs. But the validation accuracy stopped increasing any further and validation loss began to increase after 5 to 7 epochs, so overfitting occured during that point. 
+3. Unfortuntely for my final model I did not get rid of underfitting or overfitting, and the model with the class rebalances has overfitted but I did find the class rebalancing algorithm helpful with higher validation accuracy above 70% around 10 to 15 epochs. The higher validation accuracy means that the model with the data augmentation is a better model than the previous two models.
+
+Personally, I am not a fan of rebalancing class by oversampling a data with fewer samples.
 We need to find find more data and add to a class with fewer samples as much as possible because oversampling will not help to have a wider variance in data, as we are just repeating the same data.
 We need to do more augmentation, but it may not be help the situation. 
 
