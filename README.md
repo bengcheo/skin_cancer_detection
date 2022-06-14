@@ -21,14 +21,12 @@ We need to find find more data and add to a class with fewer samples as much as 
 We need to do more augmentation, but it may not be help the situation. 
 
 ## Technologies Used
-python:  3.8.8
-numpy:  1.19.5
-pandas:  1.2.4
-matplotlib:  3.3.4
-seaborn:  0.11.1
-plotly:  5.5.0
-statsmodels:  0.12.2
-sklearn:  0.24.1
+python:  3.8.13
+numpy:  1.21.5
+pandas:  1.4.2
+matplotlib:  3.5.2
+tensorflow: 2.4.1
+PIL: 9.1.1
 
 ## Contact
 Created by [@bengcheo] - feel free to contact me!
